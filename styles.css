@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Updock&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    /* includes the border and margin weight and height*/
+    box-sizing: border-box;
+    /* fonts, colours  */
+}
+
+header {
+    background-color: #333;
+    color: #fafafa;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    background-color: #333;
+}
+
+nav li {
+    /* inline so we can edit the width and height */
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+
+.about:active {
+    color: green;
+}
+
+.highlight {
+    color: #ff4500;
+}
+
+.skills:hover {
+    color: black;
+}
+
+/* id */
+#projects {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* class */
+.project {
+    background-color: white;
+    padding: 10px;
+}
+
+/* challenge
+
+- add appropriate styles to the projects section 
+add fonts to our page (link)
+
+*/
+
+.recoms {
+    font-family: "Libre Franklin";
+}
+
+.recoms img {
+    max-width: 50%;
+    max-height: 50%
+}
+
+/* add footer */
+
+
+/* pushing up to github */
+
+
+
+
