@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Updock&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lusitana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@1,9..40,300&display=swap');
 
 * {
     margin: 0;
@@ -7,6 +8,7 @@
     /* includes the border and margin weight and height*/
     box-sizing: border-box;
     /* fonts, colours  */
+    font-family: "Libre Franklin" "Trade Gothic";
 }
 
 header {
@@ -59,27 +61,34 @@ nav a:hover {
 
 /* class */
 .project {
-    font-family: "Libre Franklin";
+    font-family: "Lusitana";
     background-color: white;
     padding: 10px;
 }
 
-.recoms img {
-    max-width: 50%;
-    max-height: 50%
+.project img {
+    max-width: 20%;
+    max-height: 20%
 }
 
-/* challenge
+p {
+    font-family: "DM Sans";
+}
+
+/* challenge ✅
 
 - add appropriate styles to the projects section 
-add fonts to our page (link)
+add fonts to your page (link)
 
 */
 
 /* add footer */
 
 
-/* pushing up to github */
+
+
+
+/* pushing up to github ✅*/
 
 
 
