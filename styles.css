@@ -9,17 +9,17 @@
     box-sizing: border-box;
     /* fonts, colours  */
     font-family: "Libre Franklin" "Trade Gothic";
+    text-align: center;
+    color: rgb(5, 74, 5);
 }
 
 header {
-    background-color: #333;
-    color: #fafafa;
     padding: 20px;
+    background-color: rgb(255, 202, 211);
 }
 
 nav ul {
     list-style-type: none;
-    background-color: #333;
 }
 
 nav li {
@@ -29,7 +29,6 @@ nav li {
 }
 
 nav a {
-    color: white;
     text-decoration: none;
     padding: 10px;
     display: block;
@@ -39,6 +38,17 @@ nav a:hover {
     background-color: #555;
 }
 
+.about {
+    padding: 10px;
+    background-color: rgb(255, 202, 211);
+
+}
+
+.about-me-p {
+    background-color: rgb(255, 202, 211);
+    padding-bottom: 10px;
+
+}
 
 .about:active {
     color: green;
@@ -46,23 +56,22 @@ nav a:hover {
 
 .highlight {
     color: #ff4500;
+    background-color: rgb(255, 202, 211);
 }
 
+
 .skills:hover {
-    color: black;
+    color: purple;
 }
 
 /* id */
 #projects {
-    background-color: #f0f0f0;
-    padding: 20px;
-    margin: 20px;
+    padding: 10px;
+    margin: 10px;
 }
 
-/* class */
 .project {
     font-family: "Lusitana";
-    background-color: white;
     padding: 10px;
 }
 
@@ -75,32 +84,48 @@ p {
     font-family: "DM Sans";
 }
 
+a {
+    padding: 5px;
+    margin: 10px;
+    font-size: 13px;
+}
 
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
 
-/* challenge ✅
+    background-color: rgb(255, 202, 211);
+
+}
+
+/* 
+
+Challenges:
 
 - add appropriate styles to the projects section 
-add fonts to your page (link)
+add fonts to your page (link) ✅
+
+- add footer 
+
+- pushing up to github ✅
 
 */
 
-/* add footer */
 
-
-
-
-/* pushing up to github ✅*/
-
+/* _nology link in top section */
 .custom-link {
     color: blue; 
     text-decoration: none; 
 
 }
 
-  
 .custom-link:hover {
     color: red; 
     text-decoration: underline; 
 }
+
+
 
 
