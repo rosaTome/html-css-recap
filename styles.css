@@ -15,23 +15,24 @@
 
 header {
     padding: 20px;
-    background-color: rgb(255, 202, 211);
+    background-color: rgb(249, 161, 175);
 }
 
 nav ul {
     list-style-type: none;
+    background-color: rgb(254, 177, 190);
+
 }
 
 nav li {
     /* inline so we can edit the width and height */
-    display: inline-block;
+    display: inline;
     margin-right: 10px;
 }
 
 nav a {
     text-decoration: none;
-    padding: 10px;
-    display: block;
+    display: inline-block;
 }
 
 nav a:hover {
@@ -40,12 +41,12 @@ nav a:hover {
 
 .about {
     padding: 10px;
-    background-color: rgb(255, 202, 211);
+    background-color: rgb(249, 191, 200);
 
 }
 
 .about-me-p {
-    background-color: rgb(255, 202, 211);
+    background-color: rgb(251, 210, 217);
     padding-bottom: 10px;
 
 }
@@ -64,10 +65,13 @@ nav a:hover {
     color: purple;
 }
 
+section {
+    background-color: rgb(251, 214, 220);
+}
+
 /* id */
 #projects {
     padding: 10px;
-    margin: 10px;
 }
 
 .project {
@@ -80,14 +84,18 @@ nav a:hover {
     max-height: 20%
 }
 
+.project p {
+    font-size: 12px;
+    text-align: justify;
+}
+
 p {
     font-family: "DM Sans";
 }
 
 a {
-    padding: 5px;
-    margin: 10px;
     font-size: 13px;
+    margin-bottom: 5px;
 }
 
 .footer-container {
@@ -95,9 +103,7 @@ a {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-
-    background-color: rgb(255, 202, 211);
-
+    background-color: rgb(252, 222, 228);
 }
 
 /* 
