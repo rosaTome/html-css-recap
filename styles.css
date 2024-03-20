@@ -80,8 +80,8 @@ section {
 }
 
 .project img {
-    max-width: 20%;
-    max-height: 20%
+    max-width: 10%;
+    max-height: 10%
 }
 
 .project p {
@@ -99,11 +99,12 @@ a {
 }
 
 .footer-container {
+    height: 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    background-color: rgb(252, 222, 228);
+    background-color: rgb(251, 228, 233);
 }
 
 /* 
