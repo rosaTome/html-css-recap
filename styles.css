@@ -10,7 +10,7 @@
     /* fonts, colours  */
     font-family: "Libre Franklin" "Trade Gothic";
     text-align: center;
-    color: rgb(5, 74, 5);
+    color: rgb(56, 36, 48);
 }
 
 header {
@@ -51,20 +51,26 @@ nav a:hover {
 
 }
 
+.about:active {
+    color: white;
+}
+
 /* _nology link in top section */
 .custom-link {
-    color: blue; 
+    color: yellow; 
     text-decoration: none; 
-
 }
 
 .custom-link:hover {
-    color: red; 
+    color: blue; 
     text-decoration: underline; 
 }
 
-.about:active {
-    color: green;
+/* Extension task 2 */
+.custom-link:active {
+    text-decoration: underline; 
+    color: rgb(159, 231, 16);
+    font-weight: bolder;
 }
 
 .highlight {
@@ -72,8 +78,11 @@ nav a:hover {
     background-color: rgb(255, 202, 211);
 }
 
+/* Extension task 1 */
 .skills:hover {
     color: purple;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 section {
