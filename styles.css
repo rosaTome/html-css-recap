@@ -56,21 +56,23 @@ nav a:hover {
 }
 
 /* _nology link in top section */
-.custom-link {
-    color: yellow; 
+
+.nology-link {
+    text-decoration: none;
+    color: inherit; 
+    transition: color 0.3s, text-decoration 0.3s;
+}
+
+.nology-link:hover {
+    color: blue; 
     text-decoration: none; 
 }
 
-.custom-link:hover {
-    color: blue; 
-    text-decoration: underline; 
-}
-
 /* Extension task 2 */
-.custom-link:active {
-    text-decoration: underline; 
-    color: rgb(159, 231, 16);
+.nology-link:active {
     font-weight: bolder;
+    color: green;
+    text-decoration: underline; 
 }
 
 .highlight {
@@ -80,7 +82,7 @@ nav a:hover {
 
 /* Extension task 1 */
 .skills:hover {
-    color: purple;
+    color: blue;
     font-weight: bold;
     text-transform: uppercase;
 }
