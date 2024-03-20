@@ -11,7 +11,7 @@
 <body>
 
     <header>
-        <h1>CSS Styling Demo</h1>
+        <h1>HTML & CSS Styling Demo</h1>
     </header>
 
     <!-- nav -->
@@ -30,14 +30,16 @@
             <h2 class="about">About Me</h2>
 
             <!-- add link directing to nology website -->
-            <p class="hightlight">
-                I am a Jr. Software Engineer Trainee at <a href="https://nology.io/" class="nology-link">_nology</a> developing my skills in
+                <div class="about-me-p">
+                    <p class="hightlight">
+                        I am a Jr. Software Engineer Trainee at <a href="https://nology.io/" class="nology-link">_nology</a> developing my skills in
+                        <!-- add link directing user to relevant sections on the page -->
+                        <span class="skills">
+                            HTML, CSS & JavaScript
+                        </span>
+                    </p>
 
-                <!-- add link directing user to relevant sections on the page -->
-                <span class="skills">
-                    HTML, CSS & JavaScript
-                </span>
-            </p>
+            </div>
             
         </section>
 
@@ -46,23 +48,13 @@
             <h2>My Projects</h2>
 
             <div class="project">
-                <h3>HTML</h3>
+                <h3>HTML & CSS</h3>
                 <img src="./images/html.png" alt="html">
-
-                <!-- 
-                    - add description of projects completed displaying html skills 
-                    - link projects to GitHub repos 
-                -->
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum vitae labore magni voluptatum ut. Ipsa iure cum ex hic quae at omnis sed enim? Omnis error illum nisi quae iusto.</p>
-            </div>
-
-            <div class="project"> 
-                <h3>CSS</h3>
                 <img src="./images/css.png" alt="CSS">
 
-                <!--  
-                - add description of projects completed displaying css skills 
-                - link projects to GitHub repos 
+                <!-- 
+                    - add description of projects completed displaying html & CSS skills 
+                    - link code alongs and challenges projects to GitHub repos 
                 -->
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum vitae labore magni voluptatum ut. Ipsa iure cum ex hic quae at omnis sed enim? Omnis error illum nisi quae iusto.</p>
             </div>
@@ -71,8 +63,8 @@
                 <h3>JavaScript</h3>
 
                 <!--
-                    - add description of projects completed displaying JavaScript skills 
-                    - link projects to GitHub repos 
+                    - add description of code alongs and projects completed displaying JavaScript skills 
+                    - link code alongs and projects to GitHub repos 
                 -->
                 <img src="./images/js.png" alt="JavaScript">
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum vitae labore magni voluptatum ut. Ipsa iure cum ex hic quae at omnis sed enim? Omnis error illum nisi quae iusto.</p>
@@ -80,29 +72,7 @@
 
         </section>
 
-        <!-- More about me:
-
-            - picture of family members 
-
-            - paragraph to summarise immediate family members 
-
-
-                - Family:
-                    Mum: Childcare Assistant based in Poole
-                    Manuela: Model and Creator based in London
-                    Liticia: Psychology Student based in Nottingham
-
-                - Hobbies:
-                    Mum: Shopping
-                    Manuela: Reading 
-                    Liticia: Cooking 
-
-                - Favourite color:
-                    Mum: Blue, 
-                    Manuela: Yellow 
-                    Liticia: Pink 
         
-        -->
 
         <!-- Contact:
 
@@ -116,10 +86,10 @@
     </main>
 
     <!-- Footer -->
-    <footer>
-        <a href="#">Contact us</a>
-        <a href="#">Privacy</a>
-        <a href="#">Terms</a>
+    <footer class="footer-container">
+        <p><a href="">Contact Us</a></p>
+        <p><a href="">Privacy</a></p>
+        <p><a href="">Terms</a></p>
     </footer>
 
 </body>
